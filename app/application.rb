@@ -11,6 +11,8 @@ class Application
       @@cart.each do |cart|
         @@items
       end
+    end
+  end
 
   def call(env)
     resp = Rack::Response.new
